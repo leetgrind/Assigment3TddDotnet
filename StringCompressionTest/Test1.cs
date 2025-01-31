@@ -14,7 +14,7 @@ namespace StringCompressionTest
 
             string result = stringCompression.Compress("test");
 
-            Assert.AreEqual("test", result);
+            Assert.AreEqual("test1", result);
         }
     }
 }
