@@ -49,36 +49,42 @@ If selected Item is out of stock, transition to "OutOfStock"
 
 ### Additional Challenges:
 
-Payment Accumulation: The machine must accumulate coin values until the total payment is sufficient.
-Inventory Management: The machine must track item stock levels.
-Error Handling: The machine must handle various error conditions (e.g., invalid payment, mechanical failures).
-Edge Cases:
-What happens if the user selects an invalid item ID?
-What happens if the user inserts too much money?
-What happens if the machine runs out of stock while dispensing an item?
-What happens if the error reset fails?
-Tasks:
+- Payment Accumulation: The machine must accumulate coin values until the total payment is sufficient.
+- Inventory Management: The machine must track item stock levels.
+- Error Handling: The machine must handle various error conditions (e.g., invalid payment, mechanical failures).
+- Edge Cases:
+What happens if the user selects an invalid item ID?  
+What happens if the user inserts too much money?  
+What happens if the machine runs out of stock while dispensing an item?  
+What happens if the error reset fails?  
 
-Advanced State Transition Diagram:
-Create a detailed diagram that captures all states, events, and transitions, including error conditions.
-Comprehensive State Transition Table:
-Construct a table that includes all possible state transitions, including error conditions and edge cases.
-Robust Test Case Design:
+## Tasks:
+
+#### Advanced State Transition Diagram:
+Create a detailed diagram that captures all states, events, and transitions, including error conditions.  
+
+#### Comprehensive State Transition Table:
+Construct a table that includes all possible state transitions, including error conditions and edge cases.  
+
+#### Robust Test Case Design:
 Design a comprehensive set of test cases that cover:
-All valid and invalid transitions.
-Boundary conditions (e.g., payment accumulation, stock levels).
-Error conditions and recovery scenarios.
-Edge cases and unexpected inputs.
-Include test cases that test sequence of events.
-Advanced Test Coverage Analysis:
-Analyze the coverage of your test cases and identify any gaps.
-Implement tests that test multiple transition paths.
-Error Code Handling:
-Create a table of error codes, and describe the expected result of each error code.
-Key Discussion Points:
+- All valid and invalid transitions.
+- Boundary conditions (e.g., payment accumulation, stock levels).
+- Error conditions and recovery scenarios.
+- Edge cases and unexpected inputs.
+- Include test cases that test sequence of events.
+- 
+#### Advanced Test Coverage Analysis:
+- Analyze the coverage of your test cases and identify any gaps.
+- Implement tests that test multiple transition paths.
+- 
+#### Error Code Handling:
+- Create a table of error codes, and describe the expected result of each error code.
 
-How does the complexity of the system affect test case design?
-How can we ensure adequate coverage of error conditions?
-How can we handle edge cases and unexpected inputs?
-How can we test the sequence of events.
-How can test automation be used to test complex state transitions?
+### Key Discussion Points:
+
+- How does the complexity of the system affect test case design?
+- How can we ensure adequate coverage of error conditions?
+- How can we handle edge cases and unexpected inputs?
+- How can we test the sequence of events.
+- How can test automation be used to test complex state transitions?
